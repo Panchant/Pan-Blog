@@ -11,5 +11,6 @@ useToc: true
 
 :::links[The Autor of PanBlog]
 
+::link[YYY]{logo="/favicon5.jpg" desc="I'm YYY" link="https://chord-coder.top"}
 
 :::
