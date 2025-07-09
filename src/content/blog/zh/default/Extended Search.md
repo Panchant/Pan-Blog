@@ -1,8 +1,8 @@
 ---
 title: Extended Search
-description: '关于HsuBlog所使用的fusejs的扩展搜索语法'
-pubDate: Jul 27 2023
-updatedDate: Jul 27 2023
+description: '关于PanchantBlog所使用的fusejs的扩展搜索语法'
+pubDate: Jul 08 2025
+updatedDate: Jul 09 2025
 heroColor: ''
 abbrlink: lkk0v40t
 tags: 

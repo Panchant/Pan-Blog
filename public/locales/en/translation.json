@@ -1,7 +1,7 @@
 {
   "site": {
-    "author": "KraHsu",
-    "title": "Hsu's Blog!",
+    "author": "Panchant",
+    "title": "Panchant's Blog!",
     "description": "This is a personal blog",
     "localSearch": {
       "comment": "You can use a unix-like format: [Extended Search](/blog/lkk0v40t/)",
@@ -24,11 +24,11 @@
   },
   "aside": {
     "authorInfo": {
-      "description": "A front-end developer."
+      "description": "An student, and a runner."
     },
     "announcement": {
       "headline": "Announcement!",
-      "content": "New theme testing~ Everyone is welcome to [contribute](https://github.com/KraHsu/HsuBlog/issues)~"
+      "content": "Testing content~"
     },
     "customCards": {
       "推荐文章": {
@@ -39,12 +39,12 @@
     }
   },
   "footer": {
-    "text": "Design & Build with ❤ by [KraHsu](/about)",
-    "copyright": "&copy; 2022-{{const today = new Date();return today.getFullYear();}} By [KraHsu](/about)"
+    "text": "Build with by [Panchant](/about)",
+    "copyright": "&copy; 2025-{{const today = new Date();return today.getFullYear();}} By [Panchant](/about)"
   },
   "homePage": {
-    "heroTitle": "KraHsu's Blog",
-    "heroDescription": "A beautiful, customized, personal blog theme for Astro"
+    "heroTitle": "Panchant's Blog",
+    "heroDescription": "A blog about my life, study and thoughts."
   },
   "postPage": {
     "pubDate": "Published on {{- pubDate}}",

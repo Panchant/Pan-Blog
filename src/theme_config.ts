@@ -1,4 +1,5 @@
 import Person from "@comp/icons/person.astro";
+const Person = "local:solid.user";
 import { SiteConfig } from "./site_config";
 // import { faStar } from "@fortawesome/free-solid-svg-icons";
 // import { library, icon } from "@fortawesome/fontawesome-svg-core";
@@ -13,7 +14,7 @@ export const ThemeConfig: Configs = {
     title: SiteConfig.title,
     favicon: "/favicon.png",
     logo: "/favicon.png",
-    author: "枢衡KraHsu",
+    author: "Panchant",
     localSearch: {
       comment: "你可以使用类似 unix 的格式：[扩展搜索](/blog/lkk0v40t/)",
       hits: ["[扩展搜索](/blog/lkk0v40t/)", "[HelloWorld](/blog/lkk0fjvf/)"],
@@ -87,38 +88,32 @@ export const ThemeConfig: Configs = {
   aside: {
     authorInfo: {
       avatar: "/avatar.avif",
-      description: "一个前端开发者，退役OIer，Robomaster菜鸟",
+      description: "An undergraduate student majoring in Artificial Intelligence, in Xi'an Jiaotong University, China.",
       socialMedias: [
         {
-          link: "https://github.com/KraHsu",
+          link: "https://github.com/Panchant",
           customClass: "github",
           icon: "local:brands.github",
-          title: "github",
+          title: "Github",
         },
         {
-          link: "mailto:charles_hus@qq.com",
-          customClass: "mail-qq",
+          link: "mailto:Panchant@stu.xjtu.edu.cn",
+          customClass: "mail",
           icon: "local:solid.envelope",
-          title: "QQmail",
+          title: "Mail",
         },
         {
-          link: "https://space.bilibili.com/86698256",
-          customClass: "bilibili",
+          link: "https://space.bilibili.com/2020796330?spm_id_from=333.1007.0.0",
+          customClass: "Bilibili",
           icon: "local:brands.bilibili",
           title: "social-bili",
-        },
-        {
-          link: "https://blog.csdn.net/CharlesHsuu",
-          customClass: "csdn",
-          icon: "local:solid.c",
-          title: "social-csdn",
         },
       ],
     },
     announcement: {
-      headline: "看公告啦！",
+      headline: "Notices~",
       content:
-        "新主题试验中~ 欢迎各位[找茬](https://github.com/KraHsu/HsuBlog/issues)~",
+        "Testing content",
     },
     siteInfo: {
       busuanzi: false,
@@ -130,21 +125,21 @@ export const ThemeConfig: Configs = {
         // icon: `<i class="fa-solid fa-star"></i>`,
         icon: "local:solid.star",
         title: "推荐文章",
-        content: "这里是自定义内容部分<br>啥都可以放",
+        content: "自定义部分<br>啥都可以放",
       },
     ],
   },
   footer: {
-    text: "Design & Build with ❤ by [枢衡KraHsu](/about)",
-    copyright: `&copy; 2022-${today.getFullYear()} By [枢衡KraHsu](/about)`,
+    text: "Build by [Panchant](/about)",
+    copyright: `&copy; 2025-${today.getFullYear()} By [Panchant](/about)`,
     // 也可以使用 {{}} 包裹函数体，并返回替换值
     // You can also use {{}} to wrap the function body and return the replacement value.
     // copyright: `&copy; 2022-{{const today = new Date();return today.getFullYear();}} By [枢衡KraHsu](/about)`,
   },
   homePage: {
     heroShoot: "/heroimg.jpg",
-    heroTitle: "KraHsu's Blog",
-    heroDescription: "A beautiful, customized, personal blog theme for Astro",
+    heroTitle: "Panchant's Blog",
+    heroDescription: "A blog about my life, study and thoughts.",
     paginationSize: 10,
     aside: {
       comps: ["AuthorInfo"],

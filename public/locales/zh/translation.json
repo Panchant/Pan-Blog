@@ -1,8 +1,8 @@
 {
   "site": {
-    "author": "枢衡Krahsu",
-    "title": "Hsu's Blog!",
-    "description": "这是一个个人博客",
+    "author": "Panchant",
+    "title": "Panchant's Blog!",
+    "description": "It's a personal blog about my life, study and thoughts.",
     "localSearch": {
       "comment": "你可以使用类似 unix 的格式：[扩展搜索](/blog/lkk0v40t/)",
       "hits": [
@@ -27,24 +27,24 @@
       "description": ""
     },
     "announcement": {
-      "headline": "看公告啦！",
-      "content": "新主题试验中~ 欢迎各位[找茬](https://github.com/KraHsu/HsuBlog/issues)~"
+      "headline": "看公告啦~",
+      "content": "测试完善内容ing~"
     },
     "customCards": {
       "推荐文章": {
         "icon": "local:solid.star",
         "title": "推荐文章",
-        "content": "这里是自定义内容部分<br>啥都可以放"
+        "content": "自定义内容<br>啥都可以放"
       }
     }
   },
   "footer": {
-    "text": "Design & Build with ❤ by [枢衡KraHsu](/about)",
-    "copyright": "&copy; 2022-{{const today = new Date();return today.getFullYear();}} By [枢衡KraHsu](/about)"
+    "text": "Design & Build with ❤ by [Panchant](/about)",
+    "copyright": "&copy; 2022-{{const today = new Date();return today.getFullYear();}} By [Panchant](/about)"
   },
   "homePage": {
-    "heroTitle": "枢衡の学习日志",
-    "heroDescription": "一个漂亮且客制化的Astro个人博客主题"
+    "heroTitle": "郏郝的博客",
+    "heroDescription": "关于我的生活、学习和思考的博客。"
   },
   "postPage": {
     "pubDate": "发表于 {{- pubDate}}",

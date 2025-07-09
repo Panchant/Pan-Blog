@@ -1,7 +1,7 @@
 export const SiteConfig: SiteConfig = {
   site: "https://foo.com/",
-  title: "Hsu's Blog!",
-  description: "这是一个个人博客",
+  title: "Panchant's Blog!",
+  description: "It's a personal blog about my life, study and thoughts.",
   localSearch: true,
   markdownMath: false,
   i18n: {

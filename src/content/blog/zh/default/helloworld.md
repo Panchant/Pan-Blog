@@ -13,4 +13,4 @@ lang: 'zh'
 
 ## Hello World - 中文版
 
-感谢使用:color[HsuBlog]{color="gold"}
+感谢使用:color[PanBlog]{color="gold"}
