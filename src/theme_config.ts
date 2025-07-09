@@ -87,7 +87,7 @@ export const ThemeConfig: Configs = {
   },
   aside: {
     authorInfo: {
-      avatar: "/avatar.avif",
+      avatar: "/favicon2.png",
       description: "An undergraduate student majoring in Artificial Intelligence, in Xi'an Jiaotong University, China.",
       socialMedias: [
         {
@@ -137,7 +137,7 @@ export const ThemeConfig: Configs = {
     // copyright: `&copy; 2022-{{const today = new Date();return today.getFullYear();}} By [枢衡KraHsu](/about)`,
   },
   homePage: {
-    heroShoot: "/background1.png",
+    heroShoot: "/bg4.png",
     heroTitle: "Panchant's Blog",
     heroDescription: "A blog about my life, study and thoughts.",
     paginationSize: 10,
