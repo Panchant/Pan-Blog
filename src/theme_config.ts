@@ -12,8 +12,8 @@ const today = new Date();
 export const ThemeConfig: Configs = {
   site: {
     title: SiteConfig.title,
-    favicon: "/favicon.png",
-    logo: "/favicon.png",
+    favicon: "/favicon1.png",
+    logo: "/favicon1.png",
     author: "Panchant",
     localSearch: {
       comment: "你可以使用类似 unix 的格式：[扩展搜索](/blog/lkk0v40t/)",
@@ -137,7 +137,7 @@ export const ThemeConfig: Configs = {
     // copyright: `&copy; 2022-{{const today = new Date();return today.getFullYear();}} By [枢衡KraHsu](/about)`,
   },
   homePage: {
-    heroShoot: "/preview.jpg",
+    heroShoot: "/background1.png",
     heroTitle: "Panchant's Blog",
     heroDescription: "A blog about my life, study and thoughts.",
     paginationSize: 10,
@@ -148,7 +148,7 @@ export const ThemeConfig: Configs = {
     },
   },
   postPage: {
-    defaultCover: "https://lipsum.app/id/2/1600x1200",
+    defaultCover: "/background2.png",
     aside: {
       comps: ["AuthorInfo"],
       stickyComps: [],
