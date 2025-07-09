@@ -12,8 +12,8 @@ const today = new Date();
 export const ThemeConfig: Configs = {
   site: {
     title: SiteConfig.title,
-    favicon: "/favicon3.png",
-    logo: "/favicon3.png",
+    favicon: "/favicon4.png",
+    logo: "/favicon4.png",
     author: "Panchant",
     localSearch: {
       comment: "你可以使用类似 unix 的格式：[扩展搜索](/blog/lkk0v40t/)",
