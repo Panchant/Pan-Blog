@@ -137,7 +137,7 @@ export const ThemeConfig: Configs = {
     // copyright: `&copy; 2022-{{const today = new Date();return today.getFullYear();}} By [枢衡KraHsu](/about)`,
   },
   homePage: {
-    heroShoot: "/heroimg.jpg",
+    heroShoot: "/preview.jpg",
     heroTitle: "Panchant's Blog",
     heroDescription: "A blog about my life, study and thoughts.",
     paginationSize: 10,
