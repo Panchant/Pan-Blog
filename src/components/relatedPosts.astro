@@ -20,7 +20,7 @@ const { lang, title } = Astro.props;
   </div>
   <div class="related-post-wrap">
     <RelatedPostsCore
-      client:only
+      client:load
       lang={lang}
       title={title}
       cover={ThemeConfig.postPage.defaultCover}
