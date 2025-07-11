@@ -19,7 +19,7 @@ export const ThemeConfig: Configs = {
       hits: ["[扩展搜索](/blog/lkk0v40t/)", "[HelloWorld](/blog/lkk0fjvf/)"],
     },
     backgroundBubbles: 20,
-    themeColor: "#a57ad4",
+    themeColor: "#d47a8dff",
   },
   head: [``],
   body: [``],
@@ -147,7 +147,7 @@ export const ThemeConfig: Configs = {
     },
   },
   postPage: {
-    defaultCover: "/background2.png",
+    defaultCover: "https://cdn.picui.cn/vip/2025/07/12/68714e873d7b8.pnggit",
     aside: {
       comps: ["AuthorInfo"],
       stickyComps: [],
