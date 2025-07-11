@@ -60,4 +60,25 @@ const script = () => {
     </Fragment>
   )
 }
-{type !== false && <script type="module" is:raw set:html={script()} />}
+{
+  type === "giscus" && (
+    <script
+      src="https://giscus.app/client.js"
+      data-repo={options.repo}
+      data-repo-id={options.repoId}
+      data-category={options.category}
+      data-category-id={options.categoryId}
+      data-mapping={options.mapping}
+      data-strict={options.strict}
+      data-reactions-enabled={options.reactionsEnabled}
+      data-emit-metadata={options.emitMetadata}
+      data-input-position={options.inputPosition}
+      data-theme={options.theme}
+      data-lang={options.lang}
+      data-loading={options.loading}
+      crossorigin="anonymous"
+      async
+    ></script>
+  )
+}
+{type !== false && type !== "giscus" && <script type="module" is:raw set:html={script()} />}
