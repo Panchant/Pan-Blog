@@ -1,5 +1,6 @@
 import Person from "@comp/icons/person.astro";
 import { SiteConfig } from "./site_config";
+import { faL } from "@fortawesome/free-solid-svg-icons";
 // import { faStar } from "@fortawesome/free-solid-svg-icons";
 // import { library, icon } from "@fortawesome/fontawesome-svg-core";
 
@@ -152,7 +153,7 @@ export const ThemeConfig: Configs = {
       comps: ["AuthorInfo"],
       stickyComps: [],
     },
-    relatedPosts: true,
+    relatedPosts: false,
   },
   tagsPage: {
     floating: true,
