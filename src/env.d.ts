@@ -142,8 +142,27 @@ interface NoCommentConfig {
   options: null;
 }
 
+interface GiscusCommentConfig {
+  type: "giscus";
+  options: {
+    repo: string;
+    repoId: string;
+    category: string;
+    categoryId: string;
+    mapping: string;
+    strict: string;
+    reactionsEnabled: string;
+    emitMetadata: string;
+    inputPosition: string;
+    theme: string;
+    lang: string;
+    loading: string; 
+  };
+}
+
 type CommentConfig =
   | TwikooCommentConfig
   | WalineCommentConfig
   | NoCommentConfig
-  | ValineCommentConfig;
+  | ValineCommentConfig
+  | GiscusCommentConfig; // 在这里添加 GiscusCommentConfig

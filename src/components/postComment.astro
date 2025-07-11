@@ -29,7 +29,15 @@ const script = () => {
     <span>{t("words.comments")}</span>
   </div>
   <div class="comment-wrap">
-    <div id="tcomment"></div>
+    <div 
+      id="tcomment" 
+      class:list={[
+        { 'giscus': type === 'giscus' },
+        { 'twikoo': type === 'twikoo' },
+        { 'waline': type === 'waline' },
+        { 'valine': type === 'valine' }
+      ]}
+    ></div>
   </div>
 </div>
 {
