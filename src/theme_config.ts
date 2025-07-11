@@ -148,7 +148,7 @@ export const ThemeConfig: Configs = {
     },
   },
   postPage: {
-    defaultCover: "background2.png",
+    defaultCover: "/background3.png",
     aside: {
       comps: ["AuthorInfo"],
       stickyComps: [],
