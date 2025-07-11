@@ -147,7 +147,7 @@ export const ThemeConfig: Configs = {
     },
   },
   postPage: {
-    defaultCover: "https://cdn.picui.cn/vip/2025/07/12/68714e873d7b8.pnggit",
+    defaultCover: "https://cdn.picui.cn/vip/2025/07/12/68714e873d7b8.png",
     aside: {
       comps: ["AuthorInfo"],
       stickyComps: [],
