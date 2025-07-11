@@ -148,12 +148,12 @@ export const ThemeConfig: Configs = {
     },
   },
   postPage: {
-    defaultCover: "https://cdn.picui.cn/vip/2025/07/12/68714e873d7b8.png",
+    defaultCover: "background2.png",
     aside: {
       comps: ["AuthorInfo"],
       stickyComps: [],
     },
-    relatedPosts: false,
+    relatedPosts: true,
   },
   tagsPage: {
     floating: true,
