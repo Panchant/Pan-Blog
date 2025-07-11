@@ -9,6 +9,7 @@ tags:
     - '教程'
 category: '默认页面'
 lang: 'zh'
+relatedPosts: true
 ---
 
 ## Hello World - 中文版

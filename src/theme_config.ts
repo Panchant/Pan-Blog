@@ -159,20 +159,16 @@ export const ThemeConfig: Configs = {
     floating: true,
   },
   comments: {
-    type: "giscus", // 确保这里是 "giscus"
-    options: {
-      repo: "Panchant/Comment",
-      repoId: "R_kgDOPJWSIw",
-      category: "Announcements",
-      categoryId: "DIC_kwDOPJWSI84CszNx",
-      mapping: "title",
-      strict: "0",
-      reactionsEnabled: "1",
-      emitMetadata: "0",
-      inputPosition: "bottom",
-      theme: "preferred_color_scheme",
-      lang: "zh-CN",
-      loading: "lazy", // 别忘了添加这个
-    },
+    // type: "twikoo",
+    // options: {
+    //   envId: "",
+    //   lang: "zh-CN",
+    // },
+    // type: "waline",
+    // options: {
+    //   serverURL: "",
+    // },
+    type: false,
+    options: null,
   },
 };
