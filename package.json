@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro build && mkdir -p dist/scripts && cp public/scripts/*.json dist/scripts/",
     "preview": "astro preview",
     "astro": "astro",
     "new": "ts-node ./hsublog-cli.ts new",
