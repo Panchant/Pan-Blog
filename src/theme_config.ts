@@ -153,7 +153,7 @@ export const ThemeConfig: Configs = {
       comps: ["AuthorInfo"],
       stickyComps: [],
     },
-    relatedPosts: true,
+    relatedPosts: false,
   },
   tagsPage: {
     floating: true,
