@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import Fuse from "fuse.js";
-import { ref, onMounted } from "vue";
 
 interface Result {
   content: string;
@@ -15,10 +14,6 @@ const {
   cover,
 } = defineProps(["lang", "title", "cover"]);
 
-const results = ref<Fuse.FuseResult<Result>[]>([]);
-const loading = ref(true);
-const error = ref(false);
-
 const fuseOptions = {
   isCaseSensitive: false,
   includeScore: true,
@@ -26,6 +21,9 @@ const fuseOptions = {
   minMatchCharLength: 1,
   shouldSort: true,
   findAllMatches: false,
+  // location: 0,
+  // distance: 100,
+  // ignoreLocation: false,
   threshold: 1,
   useExtendedSearch: false,
   ignoreFieldNorm: false,
@@ -33,32 +31,20 @@ const fuseOptions = {
   keys: ["title", "content"],
 };
 
-onMounted(async () => {
-  try {
-    const list = await hsu.getJson(`/scripts/searchData-${language}.json`);
-    const fuse = new Fuse(list, fuseOptions);
-    results.value = fuse.search(title).slice(1, 7) as Fuse.FuseResult<Result>[];
-    loading.value = false;
-  } catch (err) {
-    console.error('Failed to load search data:', err);
-    error.value = true;
-    loading.value = false;
-  }
-});
+const list = await hsu.getJson(`/scripts/searchData-${language}.json`);
+const fuse = new Fuse(list, fuseOptions);
+const results = fuse.search(title).slice(1, 7) as Fuse.FuseResult<Result>[];
 </script>
 
 <template>
-  <div v-if="loading" class="loading">加载相关文章...</div>
-  <div v-else-if="error" class="error">无法加载相关文章</div>
-  <div v-else-if="results.length === 0" class="no-results">暂无相关文章</div>
   <a
-    v-else
     class="related-post"
     v-for="{ item } in results"
-    :key="item.url"
     :href="item.url"
     :style="`background: url(${item.cover || cover}) center/cover no-repeat;`"
   >
     <div class="related-post-title">{{ item.title }}</div>
   </a>
 </template>
+
+<style scoped></style>
